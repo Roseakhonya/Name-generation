@@ -15,7 +15,7 @@ This application was developed by incorporating the use of:
 - Javascript 
 ## Accessibility
 Find the application on ""
-## Contributing
+## Contributions
 - Go to github search Roseakhonya/Name-generator
 - Fork it
 - Create your own branches
