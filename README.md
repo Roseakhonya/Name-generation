@@ -3,7 +3,7 @@
 ## Description
 This is an application that helps one to know the day they were born and generate for them an *Akan* Ghanaian name depending on their gender and the day you were born.
 ## Visual representation
-<img src=""> 
+<img src="ram.png"> 
 
 ## BDD
 This application functions in such a way that it allows you to key in your credentials. It accepts your gender, date of birth(day, month year) then it displays the exact day of birth and your Akan name. 
