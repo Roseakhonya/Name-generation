@@ -37,6 +37,9 @@ function findName() {
   } else if ((mm.toString()).length !== 2) {
     alert("Enter a valid year");
   } 
+  if ((yy.toString()).length !== 4) {
+    alert("Enter a valid year");
+  } 
   else if (maleGender.checked) {
     alert(
       "Hello there, your day of birth is " +
