@@ -29,18 +29,18 @@ function findName() {
 
   if (dd < 1 || dd > 31) {
     alert("Enter valid day");
-  } else if ((dd.toString()).length !== 2) {
+  // } else if (dd.toString().length !== 2) {
+    alert("Enter a valid day");
+  }
+  if (mm < 1 || mm > 12) {
+    alert("Enter valid month");
+  }
+  // else if (mm.toString().length !== 2) {
+  //   alert("Enter a valid month");
+  // }
+  if (yy.toString().length !== 4) {
     alert("Enter a valid year");
-  } 
-  if (mm <1 || mm > 12){
-    alert("Enter valid day");
-  } else if ((mm.toString()).length !== 2) {
-    alert("Enter a valid year");
-  } 
-  if ((yy.toString()).length !== 4) {
-    alert("Enter a valid year");
-  } 
-  else if (maleGender.checked) {
+  } else if (maleGender.checked) {
     alert(
       "Hello there, your day of birth is " +
         daysOfTheWeek[dayBorn] +
