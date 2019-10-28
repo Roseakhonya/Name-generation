@@ -29,9 +29,15 @@ function findName() {
 
   if (dd < 1 || dd > 31) {
     alert("Enter valid day");
-  } else if ((dd.toString()).length !== 4) {
+  } else if ((dd.toString()).length !== 2) {
     alert("Enter a valid year");
-  } else if (maleGender.checked) {
+  } 
+  if (mm <1 || mm > 12){
+    alert("Enter valid day");
+  } else if ((mm.toString()).length !== 2) {
+    alert("Enter a valid year");
+  } 
+  else if (maleGender.checked) {
     alert(
       "Hello there, your day of birth is " +
         daysOfTheWeek[dayBorn] +
