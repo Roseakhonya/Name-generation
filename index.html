@@ -7,36 +7,37 @@
     <title>Name generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-   
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="jumbotron">
             <div id="introduction">
-                <h2>Name generator</h2>
+                <h2>Akan name generator</h2>
                 <p>This is a site that is basically designed to help one know the day they were born and assign them a Ghanian Akan name 
                 depending on their gender and the say of the week they were born. It provides you a form where you need to key in your details 
                 including your name, gender, date, month and year of birth. The system will then automatically display the day of the week that
                 you were born and the Akan Ghanian name.</p>
              .</div>
-            <div class="frm">
-                <form action="" id="myForm" class="form">
-                    <fieldset>
-                        <label>DOB:</label>
-                        <input type="number" id="dd"  class="in" maxlength="2" placeholder="DD">
-                    <fieldset>
-                        <label>Month:</label>
-                        <input type="number" id="mm" class="in" maxlength="2" placeholder="MM">
-                    </fieldset>
-                    <fieldset>
-                        <label>Year of birth</label>
-                        <input type="number" id="yy" class="in" maxlength="4" placeholder="YYYY" min="1920">
-                    </fieldset>
-                    <input type="radio" name="gender" id="maleGender" value="male"> Male<br>
-                    <input type="radio" name="gender" id="femaleGender" value="female"> Female<br>
-                    <button type="button" onclick="findName()">Compute</button>
-                </form> 
-        
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="" id="myForm" class="form">
+                        <fieldset>
+                            <label>DOB:</label>
+                            <input type="number" id="dd"  class="in" maxlength="2" placeholder="DD">
+                        <fieldset>
+                            <label>Month:</label>
+                            <input type="number" id="mm" class="in" maxlength="2" placeholder="MM">
+                        </fieldset>
+                        <fieldset>
+                            <label>Year of birth</label>
+                            <input type="number" id="yy" class="in" maxlength="4" placeholder="YYYY" min="1920">
+                        </fieldset>
+                        <input type="radio" name="gender" id="maleGender" value="male"> Male<br>
+                        <input type="radio" name="gender" id="femaleGender" value="female"> Female<br>
+                        <button type="button" onclick="findName()">Compute</button>
+                    </form> 
+                </div>
             </div>   
         </div>            
     
