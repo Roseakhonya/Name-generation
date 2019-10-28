@@ -1,0 +1,17 @@
+body {
+  background-color: darkred;
+}
+h2 {
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+}
+.jumbotron {
+  background-color: blue;
+  width: 60%;
+}
+.row {
+  margin-left: 100px;
+}
+.form {
+  width: 50%;
+}
