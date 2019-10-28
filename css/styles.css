@@ -1,5 +1,5 @@
 body {
-  background-color: darkred;
+  background: url("https://bit.ly/2BP3dvD");
 }
 h2 {
   color: white;
@@ -8,11 +8,13 @@ h2 {
 }
 .jumbotron {
   background-color: blue;
-  width: 60%;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 .row {
   margin-left: 100px;
 }
 .form {
-  width: 50%;
+  /* width: 50%; */
 }
